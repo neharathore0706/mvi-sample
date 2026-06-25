@@ -26,6 +26,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".mvi.MviAnimalActivity"
+            android:exported="false"
+            android:label="MVI Animals"
+            android:theme="@style/Theme.MVIArchitecture" />
+        <activity
+            android:name=".redux.ReduxActivity"
+            android:exported="false"
+            android:label="Redux Animals"
+            android:theme="@style/Theme.MVIArchitecture" />
     </application>
 
 </manifest>
